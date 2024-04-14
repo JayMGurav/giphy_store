@@ -8,6 +8,7 @@ export default function Home({
 }) {
   return (
     <div className="py-10 px-2">
+      <h1 className="text-2xl mb-10 font-bold">Giphy Store</h1>
       <GifSearchInput />
       <Gifs search={searchParams.search}/>
     </div>
